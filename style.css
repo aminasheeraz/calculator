@@ -1,0 +1,57 @@
+.container-fluid {
+    margin-top: 5%;
+    /*background-color: #6a6969;*/
+    width: 400px;
+    border: 15px solid burlywood;
+    padding: 0px;
+    border-radius: 40px;
+}
+
+button {
+    background-color: lightgray;
+    width: 150px;
+    height: 70px;
+    width: 100%;
+}
+.row > .col-xs-8 {
+    padding-right: 0;
+}
+.row > .col-xs-4 {
+    padding-left: 0;
+}
+body .btn  {
+    font-size: 1.8em;
+}
+
+.operators {
+    background-color: darkorange;
+    float: right;
+}
+.container-fluid > .jumbotron {
+    background-color: black;
+    margin:0;
+    margin-top: 15px;
+    color: white;
+    font-size: 4em;
+    font-weight: 100;
+}
+#display {
+    height: 70px;
+    text-align: right;
+}
+#clear {
+    background-color: lightgray;
+    display: block;
+    padding: 8px;
+}
+
+@media screen and (max-width: 627px) {
+    .container-fluid {
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
+    #display {
+    	height: 40px;
+    }
+}
